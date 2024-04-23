@@ -7,7 +7,7 @@ metadata:
     app_kubernetes_io_component: metrics
     app_kubernetes_io_instance: prometheus
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       run: test
